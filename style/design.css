@@ -15,6 +15,9 @@
     padding-right: 50px;
     font-size: 18px;
 }
+a{
+    text-decoration: none;
+}
 .nav-left{
     padding-left: 70px;
 }
@@ -95,6 +98,7 @@
     border: none;
     background-color: white;
     color: red;
+    margin-right: 30px;
 }
 .service-heading{
     font-size: 40px;
@@ -110,11 +114,13 @@
     height: 40px;
     width: 40px;
     border-radius: 30px;
-    padding: 20px 0px;
+}
+.service-man-info{
+    color: white;
 }
 .service-image-container-left{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 li{
@@ -132,3 +138,24 @@ small{
     text-align: center;
     
 }
+
+.call-bar{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -40px;
+    background-color: rgb(253, 37, 37);
+    padding: 50px;
+
+}
+
+.phone{
+    height: 80px;
+}
+.call-btn{
+    padding: 10px 20px;
+    border-radius: 18px;
+    border: none;
+}
+
