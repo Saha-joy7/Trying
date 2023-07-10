@@ -170,3 +170,27 @@ small{
     font-size: 20px;
 }
 
+.blog-slids{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.slid{
+    width: 330px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 5px 4px 6px rgb(201, 198, 190);
+}
+.slid-image{
+    width: 100%;
+}
+.blog-info-two{
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 0px;
+}
+.about-blog{
+    font: 10px;
+}
