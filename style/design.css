@@ -159,3 +159,14 @@ small{
     border: none;
 }
 
+.blog-info{
+    text-align: center;
+    padding: 60px 0px;
+}
+.blog-title{
+    font-size: 50px;
+}
+.blog-description{
+    font-size: 20px;
+}
+
